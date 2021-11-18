@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="first_human">You go first.</string>
+    <string name="turn_human">Your turn.</string>
+    <string name="turn_computer">Android\'s turn.</string>
+    <string name="result_tie">It\'s a tie.</string>
+    <string name="result_human_wins">You won!</string>
+    <string name="result_computer_wins">Android\'s won!</string>
+    <string name="difficulty_choose">Escoja una dificultad</string>
+    <string name="difficulty_easy">Facil</string>
+    <string name="difficulty_harder">Dificil</string>
+    <string name="difficulty_expert">Experto</string>
+    <string name="quit_question">Esta seguro de salir</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+</resources>

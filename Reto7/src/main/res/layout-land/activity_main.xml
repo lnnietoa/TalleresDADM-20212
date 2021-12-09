@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:layout_width="358dp"
+        android:layout_height="match_parent">
+
+        <co.edu.unal.tictactoe.BoardView
+            android:id="@+id/board"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="229dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/information"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="info"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tu Puntaje:" />
+
+            <TextView
+                android:id="@+id/player_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="player_score" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computadora:" />
+
+            <TextView
+                android:id="@+id/computer_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="computer_score" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Empate:" />
+
+            <TextView
+                android:id="@+id/tie_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tie_score" />
+
+            <Button
+                android:id="@+id/NewGame"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage"
+                android:text="NewGame" />
+
+            <Button
+                android:id="@+id/reiniciar_puntaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reiniciar_puntaje" />
+        </LinearLayout>
+
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="hello_world">Hola Mundo</string>
+    <string name="Add_New">Nuevo</string>
+    <string name="edit">Editar Contacto</string>
+    <string name="delete">Borrar Contacto</string>
+    <string name="title_activity_display_contact">Mostrar Contacto</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Telefono</string>
+    <string name="email">Email</string>
+    <string name="street">Dirección</string>
+    <string name="country">Ciudad</string>
+    <string name="save">Guardar Contacto</string>
+    <string name="deleteContact">¿Está seguro de querer eliminar el registro?.</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="usando_sqlite">SQLite - Reto 8</string>
+    <string name="moviles">Desarrollo Aplicacion Móvil</string>
+    <string name="web_page">URL</string>
+    <string name="servicios">Productos y servicios</string>
+    <string name="clasificacion">Clasificación</string>
+</resources>
